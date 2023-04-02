@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="PdhCommon.cpp" />
     <ClCompile Include="PDHSamples.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PdhCommon.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
